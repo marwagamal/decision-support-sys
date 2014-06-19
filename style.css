@@ -1,0 +1,231 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background-image:url(images/web-finl_01.png);
+background-repeat:repeat-x;
+background-color:#efefef;
+}
+#wrapper{
+width:980px;
+margin:0 auto;
+}
+##################################################333header###########################################################################
+
+#header{
+
+}
+#logo{
+margin: 0;
+padding: 0;
+}
+
+#search-wrapper{
+width:180px;
+height:34px;
+background-color:#FFFFFF;
+border:2px solid #5e5d5e;
+position:relative;
+top:10px;
+padding: 0;
+}
+#search-wrapper form{
+display:inline;
+}
+.searchbox {
+border:0px; 
+background-color:transparent; 
+position:absolute;
+top:10px;
+font-family:Arial, Helvetica, sans-serif;
+font-style:italic;
+font-size:12px;
+color:#0a82b3;
+
+}
+.searchbox_submit {
+border:0px;
+background-color:transparent; 
+position:absolute;
+left:150px;
+}
+
+#menu {
+	width: 980px;
+	height: 50px;
+	margin: 0 auto;
+}
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+#menu li {
+float:left;
+background-color:#000000;
+width:196px;
+}
+#menu a {
+	
+border:2px solid #5e5d5e;
+text-decoration:none;
+height:38px;
+display:block;
+text-align:center;
+padding-top:15px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#FFFFFF;
+font-weight:bold;	
+}
+#menu a:hover{
+background-image:url(images/web-finl_15.png);
+background-repeat:no-repeat;
+}
+#menu a:active{
+color:#0a82b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+########################################################banner############################################################################
+
+#content-wrapper{
+margin:0 auto;
+}
+#banner{
+width:980px;
+height:370px;
+background:url(images/banner.png);
+margin-top:7px;
+margin:0 auto;
+
+}
+#follow{
+padding-top:290px;
+padding-right:31px;
+}
+#follow ul{
+list-style-type:none;
+
+}
+#follow li{
+float:right;
+padding-left:5px;
+}
+#follow a{
+display:block;
+}
+
+#separator{
+height:10px;
+margin-top:10px;
+}
+
+
+
+#top-content{
+margin-top:10px;
+}
+
+#top-content ul{
+list-style-type:none;
+}
+
+#top-content li{
+float:left;
+width:300px;
+}
+.with-padding{
+padding-left:40px;
+}
+.left-imgs{
+float:left;
+padding-right:5px;
+}
+.header{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:bold;
+color:#0a82b3;
+padding-top:30px;
+
+}
+.para{
+clear:both;
+padding-top:7px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#333333;
+text-align:justify;
+}
+.links{
+text-decoration:none;
+color:#0a82b3;
+}
+
+#bottom-content{
+margin-top:10px;
+    height: 15px;
+}
+.bottom-header{
+font-family:Arial, Helvetica, sans-serif;
+margin-top:5px;
+text-align:center;
+font-size:20px;
+color:#0a82b3;
+}
+
+
+.lightbox{
+
+padding-top:70px;
+padding-left:70px;
+}
+
+.footer{
+background-image:url(images/web-finl_49.png);
+background-repeat:repeat-x;
+height:52px;
+}
+.right{
+float:right;
+width:155px;
+margin-top:20px;
+margin-right:20px;
+}
+.footer-follow{
+float:right;
+position:absolute;
+
+}
+.follow-now{
+float:left;
+padding-top:2px;
+color:#FFFFFF;
+font-size:12px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+
+}
+.left{
+float:left;
+margin-top:20px;
+margin-left:20px;
+color:#FFFFFF;
+font-size:12px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.spacer{
+clear:both;
+}
+######################################################################################################################################################################################################################################################################################################

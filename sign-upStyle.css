@@ -1,0 +1,27 @@
+body{
+margin:0;
+padding:0;
+background-color:#ffffff;
+}
+#welcome{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#0586ba;
+text-align:center;
+padding-top:5px;
+}
+#content{
+width:975px;
+margin:0 auto;
+border:2px solid #5e5d5e;
+background-repeat:repeat-x;
+height:auto;
+}
+#text{
+padding-top:15px;
+padding-left:10px;
+color:#FFFFFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:16px;
+}

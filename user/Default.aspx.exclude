@@ -1,0 +1,86 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/user/data_panel.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="user_Default" Title="Untitled Page" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+
+
+<asp:Content ID="Content2" runat="server" 
+    contentplaceholderid="ContentPlaceHolder1">
+
+<div id="content-wrapper">
+<div id="banner">
+<div id="follow">
+<ul>
+<li><a href="#"><img src="../images/banner_07.png" alt="rss" border="0" /></a></li>
+<li><a href="#"><img src="../images/banner_05.png" alt="facebook" border="0" /></a></li>
+<li><a href="#"><img src="../images/banner_03.png" alt="twitter" border="0"/></a></li>
+</ul>
+</div><!-- end follow--->
+</div><!--end banner-->
+
+
+<div id="top-content">
+<ul>
+<li>
+
+<img class="left-imgs" src="../images/web-finl_26 (2).png" height="71" border="0" />
+<h4 class="header"> Upload your data</h4>
+<div class="para">
+<p>Dss gives you a very professional ways to easily upload your own data garab wenta teshof ya 3am el7ag ma tsd3nash....<a href="#" class="links">Read More</a></p>
+</div>
+</li>
+
+<li class="with-padding">
+
+<img class="left-imgs" src="../images/web-finl_21 (2).png" border="0" />
+<h4 class="header">Create your profile</h4>
+<div class="para">
+<p>Each registerd customer has a private profile that contains his uploaded data and his history with Dss....<a href="#" class="links">Read More</a></p>
+</div>
+</li>
+
+<li class="with-padding">
+<img src="../images/web-finl_24 (2).png" width="60" height="68" border="0" class="left-imgs" />
+<h4 class="header">Make decisions</h4>
+<div class="para">
+<p>Now it's your turn as Dss gives you detailed information with multiple visualizations that guidance....<a href="#" class="links">Read More</a></p>
+</div>
+</li>
+</ul>
+<div class="spacer"></div>
+<div id="separator">
+</div><!-- end top-content-->
+<img src="../images/web-finl_20.png" border="0" align="middle" />
+</div>
+
+<div id="bottom-content">
+
+<!-- end table-->
+</div><!-- end bottom-content--><!-- wa7ed bey2ol 7abiby malesh men kol eldonya ela enta ba3m3ha 7alan 7elwa awi ----->
+
+<table border="0" align="center" cellspacing="20" cellpadding="40" width="980">
+<tr>
+<td></td>
+<td><h3 class="bottom-header">Let's see how to use DSS</h3></td>
+<td></td>
+</tr><!-- end row-->
+<tr>
+<td><a href="../images/CanadaSmallBusinessAccountingSoftware.jpg" class="lightbox"><img src="../images/262003_193057347411187_100001207700718_540226_8328268_s.jpg" border="0" /></a></td>
+<td><a href="../images/CanadaSmallBusinessAccountingSoftware.jpg" class="lightbox"><img src="../images/262003_193057347411187_100001207700718_540226_8328268_s.jpg" border="0" /></a></td>
+<td><a href="../images/CanadaSmallBusinessAccountingSoftware.jpg" class="lightbox"><img src="../images/262003_193057347411187_100001207700718_540226_8328268_s.jpg" border="0" /></a></td>
+</tr><!-- end first-row-->
+<tr>
+<td><a href="../images/CanadaSmallBusinessAccountingSoftware.jpg" class="lightbox"><img src="../images/262003_193057347411187_100001207700718_540226_8328268_s.jpg" border="0" /></a></td>
+<td><a href="../images/CanadaSmallBusinessAccountingSoftware.jpg" class="lightbox"><img src="../images/262003_193057347411187_100001207700718_540226_8328268_s.jpg" border="0" /></a></td>
+<td><a href="../images/CanadaSmallBusinessAccountingSoftware.jpg" class="lightbox"><img src="../images/262003_193057347411187_100001207700718_540226_8328268_s.jpg" border="0" /></a></td>
+</tr><!-- end second row-->
+</table>
+<div class="spacer"></div>
+</div><!-- end content wrapper--->
+       
+ 
+
+</asp:Content>
+
+
+

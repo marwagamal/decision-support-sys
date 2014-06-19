@@ -1,0 +1,182 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <title>Decision Support System</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.lightbox-0.5.min.js"></script>
+
+<script type="text/javascript">
+
+$(function() {
+
+$('a.lightbox').lightBox();//ha ha ha ha ha he kissed her:)
+
+});
+</script>
+    <style type="text/css">
+        .style1
+        {
+            height: 214px;
+        }
+        .style3
+        {
+            height: 214px;
+            width: 354px;
+        }
+        .style4
+        {
+            width: 354px;
+            height: 294px;
+        }
+        .style5
+        {
+            height: 294px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+               <div id="wrapper">
+<div id="header">
+<div id="logo">
+<table width="980" height="105" align="center" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><a  href="#"><img src="images/web-finl_04.png" id="dss" width="344" height="70" border="0" /></a></td>
+<td width="182">
+<div id="search-wrapper">
+<form action="">
+<input type="text" class="searchbox" name="s" value="search" />
+<input type="image" src="images/web-finl_07 (2).png" class="searchbox_submit" value="" />
+</form>
+</div>
+<!-- end searchwrapper--></td>
+</tr>
+</table>
+</div><!-- end logo-->
+
+<div id="menu">
+<ul>
+				<li class="first current_page_item"><a href="home.aspx">Home</a></li>
+				<li><a href="login.aspx">Login</a></li>
+				<li><a href="Registration.aspx">Register</a></li>
+				<li><a href="aboutus.aspx">About</a></li>
+				<li><a href="contact_us.aspx">Contact</a></li>
+	  </ul>
+
+</div><!-- end menu--->
+
+</div><!-- end header------>
+<!----------------------------------------------------------------------------------------banner---------------------------------->
+<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+<div id="content-wrapper">
+<div id="banner">
+<div id="follow">
+<ul>
+<li><a href="#"><img src="images/banner_07.png" alt="rss" border="0" /></a></li>
+<li><a href="#"><img src="images/banner_05.png" alt="facebook" border="0" /></a></li>
+<li><a href="#"><img src="images/banner_03.png" alt="twitter" border="0"/></a></li>
+</ul>
+</div><!-- end follow--->
+</div><!--end banner-->
+
+
+<div id="top-content">
+<ul>
+<li>
+
+<img class="left-imgs" src="images/web-finl_26 (2).png" height="71" border="0" />
+<h4 class="header"> Upload your data</h4>
+<div class="para">
+<p>Dss gives you two professional ways to easily upload your own data ....<a href="#" class="links">Read More</a></p>
+</div>
+</li>
+
+<li class="with-padding">
+
+<img class="left-imgs" src="images/web-finl_21 (2).png" border="0" />
+<h4 class="header">Create your profile</h4>
+<div class="para">
+<p>Each registerd customer has a private profile that contains his uploaded data and his history with Dss....<a href="#" class="links">Read More</a></p>
+</div>
+</li>
+
+<li class="with-padding">
+<img src="images/web-finl_24 (2).png" width="60" height="68" border="0" class="left-imgs" />
+<h4 class="header">Make decisions</h4>
+<div class="para">
+<p>Now it's your turn as Dss gives you detailed information with multiple visualizations 
+    acting as your guidance ....<a href="#" class="links">Read More</a></p>
+</div>
+</li>
+</ul>
+<div class="spacer"></div>
+<div id="separator">
+</div><!-- end top-content-->
+<img src="images/web-finl_20.png" border="0" align="middle" />
+</div>
+
+<div id="bottom-content">
+</div>
+<!-- end table-->
+<!-- end bottom-content--><!-- wa7ed bey2ol 7abiby malesh men kol eldonya ela enta ba3m3ha 7alan 7elwa awi ----->
+
+<table border="0" align="center" cellspacing="10" cellpadding="0" width="980" 
+        
+        
+        style="margin-top: -30px; height: 300px; margin-bottom: 20px; width: 800px;">
+<div>
+<h3 class="bottom-header">&nbsp;How Dss works!!!!</h3>
+</div>
+<tr>
+<td class="style4">
+    <div style="margin: 0px auto 0px auto; width: 150px; padding-left: 20px; padding-bottom: 10px;">
+        <p style="margin: 0px auto 0px auto; font-family: Arial; font-weight: bold; font-size: 14px; color: #333333;">register at Dss directly by filling the registration form</p></div><a href="images/reg2.png" class="lightbox"><img src="images/tn_Registration.png" border="0" /></a></td>
+<td class="style5"> 
+    <div style="margin: 0px auto 0px auto; width: 150px; padding-left: 20px; padding-bottom: 10px;">
+        <p style="font-family: arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #333333;">Simply login using your profile</p></div><a href="images/login.png" class="lightbox"><img src="images/tn_Login.png" 
+        border="0" align="middle" /></a></td>
+<td class="style5"> 
+    <div style="margin: 0px auto 0px auto; width: 150px; padding-left: 20px; padding-bottom: 10px;">
+        <p style="font-family: arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #333333">Upload your .xml file or download the DSS converter</p></div><a href="images/upload.png" class="lightbox"><img src="images/tn_upload.png" /></a></td>
+</tr><!-- end first-row-->
+<tr>
+<td class="style3"> 
+    <div style="margin: 0px auto 0px auto; width: 190px; padding-left: 60px; padding-bottom: 10px;">
+        <p style="font-family: arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #333333">DSS converter enables you to upload diffrent with diffrent schemas</p></div><a href="images/converter.png" class="lightbox"><img src="images/tn_converter.png" border="0" /></a></td>
+<td class="style1"> 
+    <div style="margin: 0px auto 0px auto; width: 150px; padding-left: 20px; padding-bottom: 10px;">
+        <p style="font-family: arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #333333">Select your dimentions</p></div><a href="images/chart1.png" class="lightbox"><img src="images/tn_chart1.png" border="0" /></a></td>
+<td class="style1">  
+    <div style="margin: 0px auto 0px auto; width: 150px; padding-left: 20px; padding-bottom: 10px;">
+        <p style="font-family: arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #333333">Enjoy the results</p></div><a href="images/chart2.png" class="lightbox"><img src="images/tn_chart2.png" border="0" /></a></td>
+</tr><!-- end second row-->
+</table>
+</div>
+<div class="spacer"></div>       
+ </asp:ContentPlaceHolder>
+<div class="footer">
+<div class="right">
+<div class="follow-now">follow us on:</div>
+<span class="footer-follow">
+<a target="_blank" href="#"><img src="images/web-finl_39 (2).png" border="0" /></a>
+<a target="_blank" href="#"><img src="images/web-finl_41.png" border="0"/></a>
+<a target="_blank" href="#"><img src="images/web-finl_31.png" border="0"/></a></span></div>
+<!-- end right-->
+<div class="left">Decision Support System © 2011. Developed by <a href="#" target="_blank" class="links">Dss team</a></div>
+
+</div><!-- end footer-->
+</div><!--- end wrapper----->
+
+    </form>
+</body>
+</html>
